@@ -1,0 +1,2 @@
+vote().question_id: 1
+[18/Dec/2017 21:51:08] DEBUG [polls.views:46] vote().question_id: 1

@@ -21,5 +21,7 @@ urlpatterns = [
     url(r'^$', views.HomeView.as_view(), name='home'),
     url(r'^polls/', include('polls.urls', namespace="polls")),
     url(r'^books/', include('books.urls', namespace="books")),
+    url(r'^bookmark/', include('bookmark.urls', namespace="bookmark")),
+    url(r'^blog/', include('blog.urls', namespace="blog")),
     url(r'^admin/', admin.site.urls),
 ]

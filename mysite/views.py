@@ -13,5 +13,5 @@ class HomeView(TemplateView):
 
     def get_context_data(self, **kwargs):
         context = super(HomeView, self).get_context_data(**kwargs)
-        context['object_list'] = ['polls', 'books']
+        context['object_list'] = ['polls', 'books', 'bookmark', 'blog']
         return context

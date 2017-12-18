@@ -1,0 +1,10 @@
+{%  extends "base.html" %}
+
+<title>{% block title %}Blog Application Site{% endblock %}</title>
+
+{% block menu %}
+{{ block.super }}
+<ul>
+<li><a href="/blog/">Blog_Home</a></li>
+</ul>
+{% endblock %}
